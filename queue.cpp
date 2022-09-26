@@ -50,13 +50,14 @@ public:
 	}
 
 	bool isFull() {
+		// Verifica se a fila está cheia
 		if(this->contador == this->size-1)
 			return true;
 		return false;
 	}
 
 	bool isEmpty() {
-		// TODO
+		// TODO: Verifica se a fila está vazia
 		if(this->contador == 0)
 			return true;
 		return false;
